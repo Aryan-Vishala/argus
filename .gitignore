@@ -1,0 +1,92 @@
+# ================================
+# Python bytecode / cache
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Virtual environments
+# ================================
+venv/
+.env/
+.env*/
+argus310/
+conda-env/
+.venv/
+
+# ================================
+# Python packaging artifacts
+# ================================
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ================================
+# Dependency / tooling artifacts
+# ================================
+pip-wheel-metadata/
+pip-log.txt
+
+# ================================
+# Logs & runtime output
+# ================================
+logs/
+outputs/
+*.log
+
+# ================================
+# ML / CV artifacts
+# ================================
+data/
+models/
+weights/
+runs/
+checkpoints/
+
+# YOLO / Ultralytics outputs
+ultralytics/
+*.pt
+*.onnx
+
+# ================================
+# Jupyter & experiments
+# ================================
+.ipynb_checkpoints/
+notebooks/
+experiments/
+
+# ================================
+# OS-specific files
+# ================================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# ================================
+# IDE / Editor settings
+# ================================
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# ================================
+# Environment & secrets
+# ================================
+.env
+.env.*
+*.env
+
+# ================================
+# Temporary files
+# ================================
+tmp/
+temp/
