@@ -16,7 +16,7 @@ The project follows **modern Python packaging standards**, uses a clean `src/` l
 - Centralized configuration management
 - Structured logging of detection events
 - Modular and extensible architecture
-- GPU acceleration support (if available)
+- GPU acceleration support (if available)...
 
 ---
 
