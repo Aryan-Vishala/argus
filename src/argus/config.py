@@ -57,6 +57,16 @@ FRAME_QUEUE_SIZE = 10
 CAMERA_RECONNECT_INTERVAL = 3  # seconds
 RTSP_TIMEOUT = 5  # seconds
 
+# -----------------------------
+# Live camera Sources
+# -----------------------------
+CAMERA_SOURCES = [
+    {"id": "webcam", "source": 4},
+    {"id": "Iriun Webcam", "source": 1}
+    # {"id": "cam2", "source": "rtsp://..."},
+]
+
+
 
 # -----------------------------
 # Environment overrides (optional)
